@@ -1,0 +1,2 @@
+"""Mosquito sound detection package."""
+

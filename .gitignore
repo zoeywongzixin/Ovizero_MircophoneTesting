@@ -1,0 +1,28 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+
+# Test cache
+.pytest_cache/
+.pytest_tmp/
+
+# VS Code
+.vscode/
+
+# Large generated data and model outputs
+input/
+data/
+output/
+
+# OS files
+.DS_Store
+Thumbs.db
