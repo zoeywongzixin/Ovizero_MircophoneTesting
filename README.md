@@ -1,4 +1,4 @@
-# Ovizero_MircophoneTesting
+# OviZero_MircophoneTesting
 
 This repository contains the code and tests for mosquito audio analysis in the `src/` and `tests/` directories.
 
