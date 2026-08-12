@@ -16,6 +16,41 @@ This repository contains the code and tests for mosquito audio analysis in the `
 - `pytest.ini` — test configuration
 - `.gitignore` — ignores data, environment, and output artifacts
 
+## How to run
+
+- Analyze audio files from `input/`:
+
+```bash
+python src/analyze.py
+```
+
+- Run the GUI application:
+
+```bash
+python src/main.py
+```
+
+- Train a model:
+
+```bash
+python src/ml/train.py
+```
+```
+
+- Evaluate a trained model:
+
+```bash
+python src/ml/evaluate.py
+```
+
+## Output and artifacts
+
+- `output/models/` — trained model files and metrics artifacts
+- `output/datasets/esc50/` — downloaded ESC-50 dataset used for training and evaluation
+- `output/` is ignored by default to keep large files out of version control
+
+- `input/` is the default source for sample audio files; place `.mp3`, `.wav`, or similar audio files there when running analysis or training.
+
 ## Guidance for GitHub
 
 1. Verify that the remote is set to GitHub:
